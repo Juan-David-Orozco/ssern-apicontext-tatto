@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "BlackBroody";
+  src: url('../public/fonts/Black_Broody.ttf')
+}
+
+@font-face {
+  font-family: "BlackBroodyItalic";
+  src: url('../public/fonts/Black_Broody_Italic.ttf')
+}
+
+@font-face {
+  font-family: "Velskud";
+  src: url('../public/fonts/Velskud.ttf')
+}
+
+@font-face {
+  font-family: "Crashburn";
+  src: url('../public/fonts/Crashburn.otf')
+}
+
+* {
+  font-family: "BlackBroody", "Crashburn", "Velskud", "BlackBroodyItalic";
+  font-size: 2rem;
+}
