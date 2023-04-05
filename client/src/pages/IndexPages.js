@@ -1,0 +1,6 @@
+export {HomePage} from './HomePage'
+export {Login} from './Login'
+export {Register} from './Register'
+export {Contact} from './Contact'
+export {Services} from './Services'
+export {NotFoundPage} from './NotFoundPage'

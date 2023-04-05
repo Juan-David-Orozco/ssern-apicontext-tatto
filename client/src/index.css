@@ -1,3 +1,7 @@
+/* ------------------------- ICONS -------------------------- */
+@import url('../node_modules/font-awesome/css/font-awesome.css');
+
+/*----------------- FONTS --------------  */
 @font-face {
   font-family: "BlackBroody";
   src: url('../public/fonts/Black_Broody.ttf')
@@ -18,7 +22,39 @@
   src: url('../public/fonts/Crashburn.otf')
 }
 
-* {
+/* -------------------  CONTENT --------------------- */
+body {
   font-family: "BlackBroody", "Crashburn", "Velskud", "BlackBroodyItalic";
-  font-size: 2rem;
+  font-size: 1rem;
+  margin: 0;
+  color: white !important;
+}
+
+section {
+  padding-top: 58px;
+  height: 100vh;
+}
+
+/*     HOME       */
+
+#content_home_intro {
+  background-image: url("https://res.cloudinary.com/cloud-juan/image/upload/v1680659820/tatto/home_intro_vv7lyz.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  filter: grayscale(85%);
+  opacity: 0.5;
+  width: 100%;
+  height: 400px;
+  z-index: 10;
+}
+
+#btn_home_intro {
+  background-clip: content-box;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+}
+
+#slogan {
+  font-style: italic;
 }
