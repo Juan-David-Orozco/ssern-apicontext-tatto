@@ -1,7 +1,7 @@
 export function Services() {
   return (
     <section>
-      <div>Services</div>
+      <div className="container-fluid p-0">Servicios</div>
     </section>
   )
 }

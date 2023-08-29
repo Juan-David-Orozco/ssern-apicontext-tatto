@@ -1,7 +1,7 @@
 export function Contact() {
   return (
     <section>
-      <div>Contact Me</div>
+      <div className="container-fluid p-0">Contacto</div>
     </section>
   )
 }

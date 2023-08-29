@@ -22,16 +22,13 @@ export function Navigation() {
                 <Link to="/" className="nav-link active">Home</Link>
               </li>
               <li className="nav-item">
-                <Link to="/services" className="nav-link">Services</Link>
+                <Link to="/services" className="nav-link">Servicios</Link>
               </li>
               <li className="nav-item">
-                <Link to="/contact" className="nav-link">Contact</Link>
+                <Link to="/contact" className="nav-link">Contacto</Link>
               </li>
               <li className="nav-item">
-                <Link to="/login" className="nav-link">Login</Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/register" className="nav-link">Register</Link>
+                <Link to="/precios" className="nav-link">Precios</Link>
               </li>
             </ul>
           </div>
